@@ -1,0 +1,27 @@
+{
+  "name": "frontend-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaSchubert/frontend-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielaSchubert/frontend-fullstack/issues"
+  },
+  "homepage": "https://github.com/GabrielaSchubert/frontend-fullstack#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "18": "^0.0.0"
+  }
+}
