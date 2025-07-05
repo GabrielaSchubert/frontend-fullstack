@@ -6,16 +6,16 @@ kind: Kustomization
 
 # Inclui os recursos Kubernetes (deployment e service)
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 # Substitui as imagens no deployment.yaml por uma nova versão da imagem
-images:
   # Atualiza a imagem chamada "frontend" para usar a imagem do Docker Hub com novo tag
-  - name: frontend
-    newName: gabrielaschubert/frontend
-    newTag: 413cf2339bc63b5c4b75e0e077495e62e472298cb8f8980d5af33e374bcacb51
 
   # Garante também que "gabriela.schubert/frontend" use a tag mais recente
-  - name: gabrielaschubert/frontend
-    newTag: latest
+images:
+- name: frontend
+  newName: gabrielaschubert/frontend
+  newTag: 7c5b2014d0d7bec17da0e89570b9dc12b09a64dd
+- name: gabrielaschubert/frontend
+  newTag: latest
