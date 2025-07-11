@@ -16,6 +16,6 @@ resources:
 images:
 - name: frontend
   newName: gabrielaschubert/frontend
-  newTag: 5b0d7baf213a6c33b9ae56684087ada3f67746ae
+  newTag: e53b0f261cc269daa7046cc98fdfddad75d61227
 - name: gabrielaschubert/frontend
   newTag: latest
