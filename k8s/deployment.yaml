@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend            # Rótulo de identificação
 spec:
-  replicas: 2                # Número de réplicas/pods
+  replicas: 1                # Número de réplicas/pods
   selector:
     matchLabels:
       app: frontend
