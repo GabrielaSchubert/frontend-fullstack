@@ -106,6 +106,7 @@ $ npm start
 $ git clone https://github.com/GabrielaSchubert/frontend-fullstack.git
 $ git clone https://github.com/GabrielaSchubert/todolist-fullstack-backend.git
 ```
+```bash
 # Clone o repositório packer-Devops-gabi
 $ git clone https://github.com/GabrielaSchubert/packerDevops-gabi.git
 ```
